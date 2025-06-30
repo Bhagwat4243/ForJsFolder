@@ -1,0 +1,45 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;   
+    flex-direction: column;  
+    background-color: aquamarine;
+}
+
+#box{
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+  background-color: aliceblue;
+  padding: 30px;
+  text-align: center;
+}
+#box img
+{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+#box h1{
+    font-size: 25px;
+    margin: 10 0px;
+}
+#box h5{
+    font-size: 25px;
+    color: red;
+}
+#box button{
+    border-radius: 50px;
+    background-color: darkcyan;
+    color: wheat;
+    padding: 12 20px;
+    border: none;
+    cursor: pointer;
+    width:150px;
+    height: 40px;
+}
